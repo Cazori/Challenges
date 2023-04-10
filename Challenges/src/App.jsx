@@ -6,25 +6,12 @@ import { ComponentApp } from './Challenge3/ComponentApp';
 import { GifExpert } from './Challenge4/GifExpert';
 import { FirstApp3 } from './Challenge5/FirstApp3';
 import { MultipleCustomHook } from './Challenge6y7/MultipleCustomHook';
+import { TodoApp } from './Components/TodoApp';
 
 function App() {
   return (
     <div className="App">
-      <h2>Challenge 1</h2>
-     <FirstApp/>
-     <h2>Challenge 2</h2>
-     <FirstApp2
-     value = {0}/>
-     <h2>Challenge 3</h2>
-     <ComponentApp/>
-     <h2>Challenge 4</h2>
-     <GifExpert/>
-     <h2>Challenge 5</h2>
-     <FirstApp3
-     value={0}/>
-     <h2>Challenge 6 y 7</h2>
-     <MultipleCustomHook/>
-
+      <TodoApp/>
      
     </div>
 
